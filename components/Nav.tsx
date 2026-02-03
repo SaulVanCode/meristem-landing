@@ -21,7 +21,6 @@ export function Nav() {
 
   const links = [
     { label: t('lens'), href: URLS.lens, external: true },
-    { label: t('docs'), href: '/docs', external: false },
     { label: t('security'), href: URLS.security, external: true },
     { label: t('contact'), href: URLS.contact, external: true },
   ]

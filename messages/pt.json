@@ -8,7 +8,6 @@
   },
   "nav": {
     "lens": "Lens",
-    "docs": "Docs",
     "security": "Segurança",
     "contact": "Contato"
   },
@@ -157,10 +156,70 @@
       }
     }
   },
+  "terms": {
+    "heading": "Termos de Serviço",
+    "lastUpdated": "Última atualização: 2 de fevereiro de 2026",
+    "intro": "Estes Termos de Serviço regem seu acesso e uso dos produtos e serviços fornecidos pela Meristem Works (\"Meristem\", \"nós\"), uma empresa registrada na Cidade do México, México. Ao criar uma conta ou usar qualquer produto Meristem, você concorda com estes termos. Se não concordar, não use nossos serviços.",
+    "sections": {
+      "acceptance": {
+        "title": "Aceitação dos Termos",
+        "text": "Ao acessar ou usar o Meristem Lens ou qualquer outro produto Meristem (coletivamente, o \"Serviço\"), você confirma que leu, entendeu e concorda em estar vinculado por estes Termos de Serviço. Se estiver usando o Serviço em nome de uma organização, você declara que tem autoridade para vincular essa organização a estes termos."
+      },
+      "description": {
+        "title": "Descrição do Serviço",
+        "text": "O Meristem Lens é uma ferramenta de análise de código que escaneia bases de código em busca de vulnerabilidades em dependências e segredos expostos. O Serviço opera por meio de um protocolo de scan baseado em dispositivos: seu código-fonte é analisado localmente em sua infraestrutura. O Meristem não executa código em seu ambiente, não armazena seu código-fonte e não toma ações autônomas. Cada scan requer iniciação humana explícita. Descobertas e metadados são registrados em um ledger de auditoria somente de escrita."
+      },
+      "accounts": {
+        "title": "Registro de Conta",
+        "text": "Para usar o Serviço, você deve criar uma conta com um endereço de e-mail válido. Você é responsável por manter a confidencialidade de suas credenciais e por toda atividade que ocorra em sua conta. Você deve nos notificar imediatamente em hola@meristem.mx se detectar qualquer uso não autorizado de sua conta. O Meristem não é responsável por perdas decorrentes de acesso não autorizado à sua conta."
+      },
+      "use": {
+        "title": "Uso Permitido",
+        "text": "Você pode usar o Serviço apenas para fins lícitos e de acordo com estes termos. Você concorda em não: (a) tentar obter acesso não autorizado ao Serviço ou seus sistemas; (b) usar o Serviço para violar qualquer lei ou regulamento aplicável; (c) realizar engenharia reversa, descompilar ou desmontar qualquer parte do Serviço; (d) revender, sublicenciar ou redistribuir acesso ao Serviço sem autorização escrita; (e) usar meios automatizados para abusar de limites de uso ou contornar restrições."
+      },
+      "data": {
+        "title": "Tratamento de Dados",
+        "text": "O Meristem Lens não armazena seu código-fonte. Os scans produzem descobertas e metadados que são armazenados em seu espaço de trabalho. Os dados do ledger de auditoria são armazenados em formato NDJSON e podem ser exportados a qualquer momento. Coletamos os dados mínimos necessários para operar o Serviço: seu endereço de e-mail, configuração do espaço de trabalho, descobertas de scan e eventos de auditoria. Não vendemos seus dados a terceiros. O armazenamento de credenciais usa criptografia simétrica Fernet. Para detalhes sobre processamento de dados, contate hola@meristem.mx."
+      },
+      "ip": {
+        "title": "Propriedade Intelectual",
+        "text": "O Meristem retém todos os direitos, título e interesse no Serviço, incluindo todo software, documentação e marcas registradas. Seu uso do Serviço não lhe concede nenhum direito de propriedade. Você retém todos os direitos sobre seu código-fonte, dados de descobertas e exportações do ledger de auditoria. O conteúdo gerado pelo Serviço (resultados de scan, descobertas) pertence a você e pode ser exportado a qualquer momento."
+      },
+      "availability": {
+        "title": "Disponibilidade do Serviço",
+        "text": "Nos esforçamos para manter o Serviço disponível e operacional, mas não garantimos acesso ininterrupto ou livre de erros. O Serviço pode estar temporariamente indisponível devido a manutenção, atualizações ou circunstâncias fora de nosso controle. Faremos esforços razoáveis para notificá-lo sobre manutenções programadas. O status atual do serviço está disponível em status.meristem.dev."
+      },
+      "liability": {
+        "title": "Limitação de Responsabilidade",
+        "text": "Na máxima extensão permitida pela lei aplicável, a Meristem Works não será responsável por danos indiretos, incidentais, especiais, consequentes ou punitivos, incluindo perda de lucros, dados ou oportunidades de negócio, decorrentes de seu uso do Serviço. O Serviço é fornecido como uma ferramenta para auxiliar a tomada de decisão humana. O Meristem não garante que os scans detectarão todas as vulnerabilidades ou problemas de segurança. Você é responsável por avaliar e agir sobre as descobertas produzidas pelo Serviço."
+      },
+      "payment": {
+        "title": "Termos de Pagamento",
+        "text": "O Serviço oferece planos gratuitos e pagos. Os planos pagos são cobrados mensal ou anualmente conforme selecionado no momento da assinatura. Os pagamentos são processados pelo Stripe. Você concorda em fornecer informações de cobrança precisas e mantê-las atualizadas. Os preços podem mudar com 30 dias de aviso prévio. Se o pagamento falhar, o acesso a recursos pagos pode ser suspenso até que o pagamento seja resolvido. Reembolsos são tratados caso a caso; contate hola@meristem.mx para consultas de cobrança."
+      },
+      "termination": {
+        "title": "Rescisão",
+        "text": "Você pode cancelar sua conta a qualquer momento contatando hola@meristem.mx. Podemos suspender ou encerrar seu acesso se você violar estes termos ou se razoavelmente acreditarmos que seu uso representa um risco para o Serviço ou outros usuários. Após a rescisão, seu direito de usar o Serviço cessa imediatamente. Você pode exportar os dados do seu ledger de auditoria antes da rescisão. Reteremos seus dados por um período razoável para cumprir obrigações legais, após o qual serão excluídos."
+      },
+      "changes": {
+        "title": "Alterações nos Termos",
+        "text": "Podemos atualizar estes termos periodicamente. Quando fizermos alterações materiais, notificaremos você pelo e-mail associado à sua conta com pelo menos 15 dias de antecedência antes que as alterações entrem em vigor. Seu uso continuado do Serviço após a data efetiva constitui aceitação dos termos atualizados. Se não concordar com as alterações, você deve parar de usar o Serviço e cancelar sua conta."
+      },
+      "law": {
+        "title": "Lei Aplicável",
+        "text": "Estes termos são regidos e interpretados de acordo com as leis federais dos Estados Unidos Mexicanos (México). Qualquer disputa decorrente de ou relacionada a estes termos ou ao Serviço será resolvida nos tribunais competentes da Cidade do México, México. Ambas as partes concordam em se submeter à jurisdição exclusiva dos referidos tribunais."
+      },
+      "contact": {
+        "title": "Contato",
+        "text": "Se tiver dúvidas sobre estes Termos de Serviço, entre em contato conosco em hola@meristem.mx. Meristem Works, Cidade do México, México."
+      }
+    }
+  },
   "footer": {
     "product": "Produto",
     "company": "Empresa",
     "resources": "Recursos",
+    "legal": "Legal",
     "meristemLens": "Meristem Lens",
     "pricing": "Preços",
     "about": "Sobre",
@@ -168,34 +227,7 @@
     "documentation": "Documentação",
     "contact": "Contato",
     "status": "Status",
+    "terms": "Termos de Serviço",
     "clarification": "Meristem é a empresa. Meristem Lens é um produto."
-  },
-  "secondaryPage": {
-    "backHome": "Início",
-    "goToLens": "Ir para o Meristem Lens"
-  },
-  "docsPage": {
-    "title": "Documentação",
-    "metaTitle": "Documentação — Meristem",
-    "metaDescription": "Documentação e recursos de produtos Meristem.",
-    "paragraph": "A documentação do Meristem Lens está disponível na plataforma Lens.",
-    "lensLink": "Ir para o Meristem Lens",
-    "lensLinkSuffix": "para acessar guias de instalação, referência de API e documentação de integração.",
-    "comingSoon": "A documentação do ecossistema Meristem e produtos adicionais será publicada aqui quando estiver disponível."
-  },
-  "pricingPage": {
-    "title": "Preços",
-    "metaTitle": "Preços — Meristem",
-    "metaDescription": "Preços e planos do Meristem Lens.",
-    "paragraph": "Os preços e detalhes dos planos do Meristem Lens estão disponíveis na plataforma Lens.",
-    "lensLink": "Ver planos no Meristem Lens",
-    "enterprise": "Para preços empresariais ou arranjos personalizados, entre em contato"
-  },
-  "statusPage": {
-    "title": "Status",
-    "metaTitle": "Status — Meristem",
-    "metaDescription": "Status operacional dos serviços Meristem.",
-    "allOperational": "Todos os sistemas operacionais",
-    "paragraph": "Meristem Lens e todos os serviços de suporte estão funcionando normalmente. Se você tiver problemas, entre em contato"
   }
 }

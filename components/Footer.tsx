@@ -13,7 +13,7 @@ export function Footer() {
       title: t('product'),
       links: [
         { label: t('meristemLens'), href: URLS.lens, external: true },
-        { label: t('pricing'), href: '/pricing', external: false },
+        { label: t('pricing'), href: URLS.pricing, external: true },
       ],
     },
     {
@@ -26,9 +26,15 @@ export function Footer() {
     {
       title: t('resources'),
       links: [
-        { label: t('documentation'), href: '/docs', external: false },
+        { label: t('documentation'), href: URLS.docs, external: true },
         { label: t('contact'), href: URLS.contact, external: true },
-        { label: t('status'), href: '/status', external: false },
+        { label: t('status'), href: URLS.status, external: true },
+      ],
+    },
+    {
+      title: t('legal'),
+      links: [
+        { label: t('terms'), href: '/terms', external: false },
       ],
     },
   ]
@@ -36,7 +42,7 @@ export function Footer() {
   return (
     <footer className="border-t border-stone-200 bg-stone-50 py-12 sm:py-16">
       <div className="mx-auto max-w-content px-6">
-        <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
+        <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
           {columns.map((column) => (
             <div key={column.title}>
               <p className="text-sm font-medium text-stone-900">

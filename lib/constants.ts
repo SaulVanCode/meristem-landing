@@ -1,8 +1,8 @@
 export const URLS = {
   lens: 'https://lens.meristem.mx',
-  docs: '/docs',
+  docs: 'https://lens.meristem.mx/docs',
   security: '#trust',
   contact: 'mailto:hola@meristem.mx',
-  status: '/status',
-  pricing: '/pricing',
+  status: 'https://status.meristem.dev',
+  pricing: 'https://lens.meristem.mx/#pricing',
 }
