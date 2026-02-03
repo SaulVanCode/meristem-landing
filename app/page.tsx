@@ -1,21 +1,15 @@
-import { Hero } from '@/components/Hero'
-import { WhatIsMeristem } from '@/components/WhatIsMeristem'
-import { WhyExists } from '@/components/WhyExists'
-import { Principles } from '@/components/Principles'
-import { ProductLens } from '@/components/ProductLens'
-import { Trust } from '@/components/Trust'
+'use client'
 
-export const dynamic = 'force-static'
+import { useEffect } from 'react'
+import { useRouter } from 'next/navigation'
+import { defaultLocale } from '@/i18n/config'
 
-export default function Home() {
-  return (
-    <>
-      <Hero />
-      <WhatIsMeristem />
-      <WhyExists />
-      <Principles />
-      <ProductLens />
-      <Trust />
-    </>
-  )
+export default function RootPage() {
+  const router = useRouter()
+
+  useEffect(() => {
+    router.replace(`/${defaultLocale}`)
+  }, [router])
+
+  return null
 }

@@ -1,4 +1,7 @@
-import Link from 'next/link'
+'use client'
+
+import { useTranslations } from 'next-intl'
+import { Link } from '@/i18n/navigation'
 import { URLS } from '@/lib/constants'
 
 export function SecondaryPage({
@@ -8,6 +11,8 @@ export function SecondaryPage({
   title: string
   children: React.ReactNode
 }) {
+  const t = useTranslations('secondaryPage')
+
   return (
     <section className="py-16 sm:py-20">
       <div className="mx-auto max-w-prose-narrow px-6">
@@ -22,13 +27,13 @@ export function SecondaryPage({
             href="/"
             className="text-stone-500 transition-colors hover:text-stone-900"
           >
-            &larr; Home
+            &larr; {t('backHome')}
           </Link>
           <a
             href={URLS.lens}
             className="text-stone-500 transition-colors hover:text-stone-900"
           >
-            Go to Meristem Lens
+            {t('goToLens')}
           </a>
         </div>
       </div>

@@ -1,0 +1,201 @@
+{
+  "site": {
+    "name": "Meristem",
+    "company": "Meristem Works",
+    "location": "Ciudad de Mexico",
+    "tagline": "Deterministische Werkzeuge für menschlich kontrollierte KI.",
+    "description": "KI-Werkzeuge mit menschlicher Aufsicht. Jede Aktion erfordert Genehmigung. Vollständige Rückverfolgbarkeit, keine autonome Ausführung."
+  },
+  "nav": {
+    "lens": "Lens",
+    "docs": "Docs",
+    "security": "Sicherheit",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "headline": "KI-Werkzeuge, die menschliche Genehmigung erfordern.",
+    "subheadline": "Deterministische KI-Werkzeuge für Teams, die Kontrolle, Auditierbarkeit und null Überraschungen brauchen.",
+    "primaryCta": "Meristem Lens testen",
+    "secondaryCta": "Sicherheitsmodell lesen"
+  },
+  "whatIs": {
+    "heading": "Was ist Meristem",
+    "paragraph": "Meristem ist kein einzelnes Produkt. Es ist ein Unternehmen, das deterministische, Ledger-basierte Software-Werkzeuge baut — jedes so konzipiert, dass KI unterstützt, aber nie entscheidet. Jedes Meristem-Produkt zeichnet jede Aktion in einem Append-only-Ledger auf, erfordert menschliche Genehmigung vor der Ausführung und produziert Ergebnisse, die reproduziert und verifiziert werden können.",
+    "bullets": {
+      "0": {
+        "title": "Ein Unternehmen, mehrere Produkte.",
+        "text": "Meristem Lens ist das erste. Weitere folgen denselben Prinzipien."
+      },
+      "1": {
+        "title": "Ledger-nativ.",
+        "text": "Jede Aktion, jeder Vorschlag und jede Entscheidung wird aufgezeichnet. Nichts wird gelöscht. Alles ist auditierbar."
+      },
+      "2": {
+        "title": "Menschliche Autorität ist architektonisch, nicht optional.",
+        "text": "Kein Meristem-Produkt kann eine irreversible Aktion ohne explizite menschliche Genehmigung durchführen. Dies wird durch Design durchgesetzt, nicht durch Richtlinien."
+      },
+      "3": {
+        "title": "Standardmäßig deterministisch.",
+        "text": "Bei gleichen Inputs und Ledger-Zustand produziert jedes Meristem-Produkt das gleiche Ergebnis. Reproduzierbarkeit ist eine Anforderung, kein Feature."
+      }
+    }
+  },
+  "whyExists": {
+    "heading": "Das Problem mit KI, die Sie nicht auditieren können",
+    "paragraphs": {
+      "0": "Die meisten KI-Werkzeuge arbeiten als Blackboxen. Sie treffen Entscheidungen, die Sie nicht nachverfolgen können, führen Aktionen aus, die Sie nicht reproduzieren können, und ändern ihr Verhalten auf Weisen, die Sie nicht erklären können. Für Teams in regulierten Branchen, sicherheitssensiblen Umgebungen oder jede Organisation, die «warum ist das passiert?» beantworten muss — das ist nicht akzeptabel.",
+      "1": "Meristem existiert, weil wir glauben, dass KI-Werkzeuge sein sollten:"
+    },
+    "bullets": {
+      "0": {
+        "title": "Erklärbar.",
+        "text": "Wenn ein Werkzeug seine Argumentation nicht in Klartext zeigen kann, sollte es keine Entscheidungen treffen."
+      },
+      "1": {
+        "title": "Reproduzierbar.",
+        "text": "Führen Sie dieselbe Analyse zweimal durch, erhalten Sie dasselbe Ergebnis. Kein versteckter Zustand, keine Modell-Drift, keine Überraschungen."
+      },
+      "2": {
+        "title": "Kontrollierbar.",
+        "text": "Der Mensch genehmigt. Das Werkzeug führt aus. Nicht umgekehrt."
+      },
+      "3": {
+        "title": "Auditierbar.",
+        "text": "Jede Aktion wird in einem Append-only-Ledger mit Zeitstempeln, Akteuren und Prüfsummen aufgezeichnet. Wenn ein Auditor fragt, was passiert ist, antwortet das Ledger."
+      }
+    },
+    "closing": "Wir bauen keine KI, die Urteilsvermögen ersetzt. Wir bauen KI, die es unterstützt — sichtbar, rückverfolgbar und unter Ihrer Kontrolle."
+  },
+  "principles": {
+    "heading": "Wie jedes Meristem-Produkt funktioniert",
+    "items": {
+      "0": {
+        "title": "Determinismus",
+        "description": "Gleiche Inputs, gleiche Outputs. Jedes Mal. Kein versteckter Zustand, keine Modell-Drift, keine probabilistischen Überraschungen."
+      },
+      "1": {
+        "title": "Ledger zuerst",
+        "description": "Jede Aktion wird in einem Append-only-Ledger aufgezeichnet. Einträge sind zeitgestempelt, hash-verkettet und werden nie gelöscht. Das Ledger ist die Quelle der Wahrheit."
+      },
+      "2": {
+        "title": "Mensch im Kreislauf",
+        "description": "KI schlägt vor. Menschen genehmigen. Kein Meristem-Produkt führt irreversible Aktionen ohne explizite menschliche Autorisierung durch."
+      },
+      "3": {
+        "title": "Nur-Lesen vor Aktion",
+        "description": "Meristem-Werkzeuge beobachten und analysieren zuerst. Alles, was den Zustand ändert, erfordert einen separaten, auditierbaren Genehmigungsschritt."
+      },
+      "4": {
+        "title": "Reproduzierbarkeit",
+        "description": "Jede Analyse kann vom Ledger wiedergegeben werden. Wenn ein Auditor, Regulierer oder Teamleiter fragt «was ist passiert?» — die Antwort steht im Protokoll."
+      }
+    }
+  },
+  "productLens": {
+    "flagshipLabel": "Flaggschiff-Produkt",
+    "heading": "Meristem Lens",
+    "subheading": "Code-Analyse mit menschlicher Aufsicht",
+    "description": "Meristem Lens scannt Ihre Codebasis auf Abhängigkeits-Schwachstellen und exponierte Geheimnisse. Jeder Scan wird von Ihnen initiiert — manuell oder nach Ihrem Zeitplan. Jeder Fund wird in einem Append-only-Audit-Ledger aufgezeichnet. Nichts läuft autonom.",
+    "capabilities": {
+      "0": "Schwachstellen-Scanning von Abhängigkeiten",
+      "1": "Geheimnis-Erkennung",
+      "2": "Scan-Dashboard mit Funden, Durchläufen und Trends",
+      "3": "Append-only-Audit-Ledger mit vollständiger Rückverfolgbarkeit",
+      "4": "Integration mit Azure DevOps und GitHub"
+    },
+    "doesNotHeading": "Was Meristem Lens nicht tut",
+    "doesNot": {
+      "0": {
+        "title": "Führt keinen Code in Ihrer Umgebung aus.",
+        "text": "Lens verwendet ein gerätebasiertes Scan-Protokoll. Ihr Code wird lokal analysiert. Keine Cloud-Ausführung."
+      },
+      "1": {
+        "title": "Trifft keine Entscheidungen.",
+        "text": "Funde werden präsentiert. Menschen priorisieren und handeln."
+      },
+      "2": {
+        "title": "Läuft nicht autonom.",
+        "text": "Jeder Scan erfordert Initiierung. Keine Hintergrundprozesse, keine stille Überwachung."
+      },
+      "3": {
+        "title": "Speichert Ihren Quellcode nicht.",
+        "text": "Scans produzieren Funde und Metadaten. Ihr Code bleibt, wo er ist."
+      },
+      "4": {
+        "title": "Löst keine Aktionen basierend auf Modell-Output aus.",
+        "text": "Keine Schwellenwerte, keine Hintergrund-Agenten, keine autonome Eskalation."
+      }
+    },
+    "safe": "Lens wurde für Teams gebaut, die andere Werkzeuge abgelehnt haben, weil sie nicht erklären konnten, was mit ihrem Code passiert. Jede Lens-Operation wird protokolliert, ist reproduzierbar und auditierbar. Es gibt kein autonomes Verhalten. Es gibt keine Blackbox.",
+    "cta": "Zu Meristem Lens"
+  },
+  "trust": {
+    "heading": "Gebaut für Teams, die Auditoren Rechenschaft ablegen",
+    "intro": "Meristem-Produkte sind für Umgebungen konzipiert, in denen «vertrauen Sie mir» keine akzeptable Antwort ist.",
+    "sections": {
+      "auditability": {
+        "title": "Auditierbarkeit",
+        "text": "Jede Aktion erzeugt einen Ledger-Eintrag mit: Zeitstempel, Akteur, Aktionstyp, Inputs, Outputs und einer SHA-256-Prüfsumme. Das Ledger ist Append-only. Einträge können nicht geändert oder gelöscht werden. Jeder historische Zustand kann durch Wiedergabe des Ledgers von Beginn an rekonstruiert werden."
+      },
+      "security": {
+        "title": "Sicherheitslage",
+        "bullets": {
+          "0": "Gerätebasiertes Scanning: Ihr Code verlässt nie Ihre Infrastruktur",
+          "1": "Verschlüsselte Anmeldedaten-Speicherung",
+          "2": "Rollenbasierte Zugriffskontrolle",
+          "3": "Kein autonomer Netzwerkzugriff",
+          "4": "Keine Telemetrie, die nicht explizit dokumentiert ist"
+        }
+      },
+      "compliance": {
+        "title": "Compliance-Bereitschaft",
+        "text": "Die Ledger-first-Architektur von Meristem erzeugt Audit-Trails, die mit den Anforderungen von SOC 2, ISO 27001 und ähnlichen Frameworks übereinstimmen. Wir beanspruchen keine Zertifizierung — wir beanspruchen, dass unsere Architektur die Zertifizierung erleichtert, weil Rückverfolgbarkeit eingebaut ist, nicht nachträglich hinzugefügt."
+      },
+      "noLockin": {
+        "title": "Keine Anbieterabhängigkeit",
+        "text": "Ledger-Daten werden in NDJSON gespeichert — einem Klartext-Format, das für Menschen lesbar ist. Sie können Ihren Audit-Trail mit jedem Werkzeug lesen, exportieren und verarbeiten. Wenn Sie Meristem nicht mehr nutzen, gehören Ihre Daten Ihnen, in einem Format, das Sie mit einem Texteditor öffnen können."
+      }
+    }
+  },
+  "footer": {
+    "product": "Produkt",
+    "company": "Unternehmen",
+    "resources": "Ressourcen",
+    "meristemLens": "Meristem Lens",
+    "pricing": "Preise",
+    "about": "Über uns",
+    "security": "Sicherheit",
+    "documentation": "Dokumentation",
+    "contact": "Kontakt",
+    "status": "Status",
+    "clarification": "Meristem ist das Unternehmen. Meristem Lens ist ein Produkt."
+  },
+  "secondaryPage": {
+    "backHome": "Startseite",
+    "goToLens": "Zu Meristem Lens"
+  },
+  "docsPage": {
+    "title": "Dokumentation",
+    "metaTitle": "Dokumentation — Meristem",
+    "metaDescription": "Meristem-Produktdokumentation und Ressourcen.",
+    "paragraph": "Die Produktdokumentation für Meristem Lens ist auf der Lens-Plattform verfügbar.",
+    "lensLink": "Zu Meristem Lens",
+    "lensLinkSuffix": "um auf Installationsanleitungen, API-Referenz und Integrationsdokumentation zuzugreifen.",
+    "comingSoon": "Dokumentation für das Meristem-Ökosystem und weitere Produkte wird hier veröffentlicht, sobald sie verfügbar ist."
+  },
+  "pricingPage": {
+    "title": "Preise",
+    "metaTitle": "Preise — Meristem",
+    "metaDescription": "Meristem Lens Preise und Pläne.",
+    "paragraph": "Meristem Lens Preise und Plandetails sind auf der Lens-Plattform verfügbar.",
+    "lensLink": "Pläne auf Meristem Lens ansehen",
+    "enterprise": "Für Unternehmenspreise oder individuelle Vereinbarungen kontaktieren Sie"
+  },
+  "statusPage": {
+    "title": "Status",
+    "metaTitle": "Status — Meristem",
+    "metaDescription": "Betriebsstatus der Meristem-Dienste.",
+    "allOperational": "Alle Systeme betriebsbereit",
+    "paragraph": "Meristem Lens und alle unterstützenden Dienste laufen normal. Bei Problemen kontaktieren Sie"
+  }
+}
